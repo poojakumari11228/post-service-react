@@ -1,0 +1,36 @@
+.posts {
+    display: flex;
+    padding: 10%;
+    width: 100%;
+
+   
+  }
+.header{
+    background: #282c34;
+    color: white;
+
+}
+  .post{
+    border:solid rgb(43, 46, 43);
+    /*box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);*/
+    align-items:center;
+      width: 50%;
+
+
+  }
+
+.post:hover {
+    /*box-shadow: 3px 3px 8px hsl(0, 0%, 70%);*/
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+.centered {
+    margin: 0 auto;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
